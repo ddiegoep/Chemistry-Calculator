@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Honk&family=Share+Tech&family=Titillium+Web:wght@200;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <title>Chemistry Calculator</title>
+</head>
+
+<body>
+    <header>
+        <div id="title">Chemistry Calculator</div>
+        <div id="signature">by diego esteso peinado</div>
+    </header>
+    <div id="content">
+        <div class="scene">
+            <div class="cube">
+                <div class="cube__face cube__face--front"></div>
+                <div class="cube__face cube__face--back"></div>
+                <div class="cube__face cube__face--right"></div>
+                <div class="cube__face cube__face--left"></div>
+                <div class="cube__face cube__face--top"></div>
+                <div class="cube__face cube__face--bottom"></div>
+            </div>
+        </div>
+        <p class="radio-group">
+            <label>
+                <input type="radio" name="rotate-cube-side" value="front" checked /> welcome
+            </label>
+            <label>
+                <input type="radio" name="rotate-cube-side" value="right" /> liquid
+            </label>
+            <label>
+                <input type="radio" name="rotate-cube-side" value="left" /> solid
+            </label>
+            <label>
+                <input type="radio" name="rotate-cube-side" value="back" /> &rho;converter
+            </label>
+            <label>
+                <input type="radio" name="rotate-cube-side" value="top" /> help
+            </label>
+            <label>
+                <input type="radio" name="rotate-cube-side" value="bottom" /> credits
+            </label>
+        </p>
+    </div>
+    <script src="./JS/rotateCube.js"></script>
+    <script src="./JS/welcome.js"></script>
+    <script src="./JS/liquid.js"></script>
+    <script src="./JS/solid.js"></script>
+    <script src="./JS/help.js"></script>
+    <script src="./JS/densityConverter.js"></script>
+    <script src="./JS/credits.js"></script>
+    <script src="./JS/start.js"></script>
+</body>
+
+</html>
