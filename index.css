@@ -289,6 +289,13 @@ header{
 }
 
 @media only screen and (max-width: 500px) {
+    .radio-group{
+        font-size: 3rem;
+        width: 15rem;
+    }
+    .radio-group label{
+        line-height: 3.5rem;
+    }
     html {
         font-size: 12px;
       }
